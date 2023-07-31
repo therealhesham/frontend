@@ -15,7 +15,7 @@ const [size,setSize] = useState(10)
 const [seats ,setSeatnumber]=useState()
 const datafetcher =  ()=>{
 
-   axios.get("http://localhost:3000").then((e) => 
+   axios.get("https://nateegaii.onrender.com/").then((e) => 
    setSearcher(_.reverse(e.data)) & setData(_.reverse(e.data)) 
    )
 }
